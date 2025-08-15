@@ -36,7 +36,7 @@ st.set_page_config(page_title="Deteksi Buah Sawit - RT-DETR", layout="wide")
 @st.cache_resource
 def load_model():
     # Ganti "best.pt" dengan model RT-DETR kamu, misalnya "rtdetr-l.pt"
-    return RTDETR("best_rtdetr.pt")
+    return RTDETR("best.pt")
 
 model = load_model()
 
